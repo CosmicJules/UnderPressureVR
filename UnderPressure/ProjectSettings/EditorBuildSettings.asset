@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/UnderPressure.unity
+    guid: db47a6ca51a9b324b98f36236672c72d
+  - enabled: 1
+    path: Assets/VRPROJECT.unity
+    guid: 105b86d8fb48f1e46a37d16618d44a02
+  m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: e3c0e49bb367f1640856b49ed2f551d9,
+      type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 211c79cae84476645aa30fc05945f389,
+      type: 2}
