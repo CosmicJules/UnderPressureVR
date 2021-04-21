@@ -5,9 +5,9 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
-    path: Assets/Scenes/UnderPressure.unity
-    guid: db47a6ca51a9b324b98f36236672c72d
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/VRPROJECT.unity
     guid: 105b86d8fb48f1e46a37d16618d44a02

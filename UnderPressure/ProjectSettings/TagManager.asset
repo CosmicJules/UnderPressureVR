@@ -3,7 +3,14 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - MiniBlock
+  - ifStatement
+  - Variable
+  - VarBlock
+  - Operation
+  - VarBlockOperation
+  - EndIfStatement
   layers:
   - Default
   - TransparentFX
@@ -21,7 +28,7 @@ TagManager:
   - Towers 2
   - Towers 1
   - ungrabbable
-  - 
+  - MiniBlocks
   - 
   - 
   - 

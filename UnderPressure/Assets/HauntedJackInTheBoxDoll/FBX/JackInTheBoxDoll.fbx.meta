@@ -1,0 +1,482 @@
+fileFormatVersion: 2
+guid: 7bfd3618fe3a558439a15ee47967aea0
+timeCreated: 1469916581
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: bottom
+    100002: j_BoxEnd
+    100004: j_BoxEnd 1
+    100006: j_BoxHandle
+    100008: j_BoxRoot
+    100010: j_BoxTop
+    100012: j_CharEnd
+    100014: j_CharRoot
+    100016: j_CharSpine01
+    100018: j_CharSpine02
+    100020: j_CharSpine03
+    100022: j_CharSpine04
+    100024: j_CharSpine05
+    100026: JackInTheBox_M_G
+    100028: //RootNode
+    100030: M_Caja
+    100032: M_Char
+    100034: M_Box
+    400000: bottom
+    400002: j_BoxEnd
+    400004: j_BoxEnd 1
+    400006: j_BoxHandle
+    400008: j_BoxRoot
+    400010: j_BoxTop
+    400012: j_CharEnd
+    400014: j_CharRoot
+    400016: j_CharSpine01
+    400018: j_CharSpine02
+    400020: j_CharSpine03
+    400022: j_CharSpine04
+    400024: j_CharSpine05
+    400026: JackInTheBox_M_G
+    400028: //RootNode
+    400030: M_Caja
+    400032: M_Char
+    400034: M_Box
+    4300000: M_Caja
+    4300002: M_Char
+    4300004: M_Box
+    7400000: Neutral Pose
+    7400002: Box - Handle -L-
+    7400004: Box/Char - Appearance
+    7400006: Char - Seek -L-
+    7400008: Box/Char - Return to box
+    7400010: Char - IDLE -L-
+    9500000: //RootNode
+    13700000: M_Caja
+    13700002: M_Char
+    13700004: M_Box
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Neutral Pose
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: bottom
+        weight: 1
+      - path: j_BoxRoot
+        weight: 1
+      - path: j_BoxRoot/j_BoxHandle
+        weight: 1
+      - path: j_BoxRoot/j_BoxHandle/j_BoxEnd
+        weight: 1
+      - path: j_BoxRoot/j_BoxTop
+        weight: 1
+      - path: j_BoxRoot/j_BoxTop/j_BoxEnd 1
+        weight: 1
+      - path: j_CharRoot
+        weight: 1
+      - path: j_CharRoot/j_CharSpine01
+        weight: 1
+      - path: j_CharRoot/j_CharSpine01/j_CharSpine02
+        weight: 1
+      - path: j_CharRoot/j_CharSpine01/j_CharSpine02/j_CharSpine03
+        weight: 1
+      - path: j_CharRoot/j_CharSpine01/j_CharSpine02/j_CharSpine03/j_CharSpine04
+        weight: 1
+      - path: j_CharRoot/j_CharSpine01/j_CharSpine02/j_CharSpine03/j_CharSpine04/j_CharSpine05
+        weight: 1
+      - path: j_CharRoot/j_CharSpine01/j_CharSpine02/j_CharSpine03/j_CharSpine04/j_CharSpine05/j_CharEnd
+        weight: 1
+      - path: JackInTheBox_M_G
+        weight: 1
+      - path: JackInTheBox_M_G/M_Caja
+        weight: 1
+      - path: JackInTheBox_M_G/M_Char
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Box - Handle -L-
+      takeName: Take 001
+      firstFrame: 2
+      lastFrame: 49
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: j_BoxRoot
+        weight: 1
+      - path: j_BoxRoot/j_BoxHandle
+        weight: 1
+      - path: j_BoxRoot/j_BoxHandle/j_BoxEnd
+        weight: 1
+      - path: j_BoxRoot/j_BoxTop
+        weight: 1
+      - path: j_BoxRoot/j_BoxTop/j_BoxEnd 1
+        weight: 1
+      - path: j_CharRoot
+        weight: 1
+      - path: j_CharRoot/j_CharSpine01
+        weight: 1
+      - path: j_CharRoot/j_CharSpine01/j_CharSpine02
+        weight: 1
+      - path: j_CharRoot/j_CharSpine01/j_CharSpine02/j_CharSpine03
+        weight: 1
+      - path: j_CharRoot/j_CharSpine01/j_CharSpine02/j_CharSpine03/j_CharSpine04
+        weight: 1
+      - path: j_CharRoot/j_CharSpine01/j_CharSpine02/j_CharSpine03/j_CharSpine04/j_CharSpine05
+        weight: 1
+      - path: j_CharRoot/j_CharSpine01/j_CharSpine02/j_CharSpine03/j_CharSpine04/j_CharSpine05/j_CharEnd
+        weight: 1
+      - path: JackInTheBox_M_G
+        weight: 1
+      - path: JackInTheBox_M_G/M_Box
+        weight: 1
+      - path: JackInTheBox_M_G/M_Char
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Box/Char - Appearance
+      takeName: Take 001
+      firstFrame: 51
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: j_BoxRoot
+        weight: 1
+      - path: j_BoxRoot/j_BoxHandle
+        weight: 1
+      - path: j_BoxRoot/j_BoxHandle/j_BoxEnd
+        weight: 1
+      - path: j_BoxRoot/j_BoxTop
+        weight: 1
+      - path: j_BoxRoot/j_BoxTop/j_BoxEnd 1
+        weight: 1
+      - path: j_CharRoot
+        weight: 1
+      - path: j_CharRoot/j_CharSpine01
+        weight: 1
+      - path: j_CharRoot/j_CharSpine01/j_CharSpine02
+        weight: 1
+      - path: j_CharRoot/j_CharSpine01/j_CharSpine02/j_CharSpine03
+        weight: 1
+      - path: j_CharRoot/j_CharSpine01/j_CharSpine02/j_CharSpine03/j_CharSpine04
+        weight: 1
+      - path: j_CharRoot/j_CharSpine01/j_CharSpine02/j_CharSpine03/j_CharSpine04/j_CharSpine05
+        weight: 1
+      - path: j_CharRoot/j_CharSpine01/j_CharSpine02/j_CharSpine03/j_CharSpine04/j_CharSpine05/j_CharEnd
+        weight: 1
+      - path: JackInTheBox_M_G
+        weight: 1
+      - path: JackInTheBox_M_G/M_Box
+        weight: 1
+      - path: JackInTheBox_M_G/M_Char
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Char - Seek -L-
+      takeName: Take 001
+      firstFrame: 120
+      lastFrame: 270
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: j_BoxRoot
+        weight: 1
+      - path: j_BoxRoot/j_BoxHandle
+        weight: 1
+      - path: j_BoxRoot/j_BoxHandle/j_BoxEnd
+        weight: 1
+      - path: j_BoxRoot/j_BoxTop
+        weight: 1
+      - path: j_BoxRoot/j_BoxTop/j_BoxEnd 1
+        weight: 1
+      - path: j_CharRoot
+        weight: 1
+      - path: j_CharRoot/j_CharSpine01
+        weight: 1
+      - path: j_CharRoot/j_CharSpine01/j_CharSpine02
+        weight: 1
+      - path: j_CharRoot/j_CharSpine01/j_CharSpine02/j_CharSpine03
+        weight: 1
+      - path: j_CharRoot/j_CharSpine01/j_CharSpine02/j_CharSpine03/j_CharSpine04
+        weight: 1
+      - path: j_CharRoot/j_CharSpine01/j_CharSpine02/j_CharSpine03/j_CharSpine04/j_CharSpine05
+        weight: 1
+      - path: j_CharRoot/j_CharSpine01/j_CharSpine02/j_CharSpine03/j_CharSpine04/j_CharSpine05/j_CharEnd
+        weight: 1
+      - path: JackInTheBox_M_G
+        weight: 1
+      - path: JackInTheBox_M_G/M_Box
+        weight: 1
+      - path: JackInTheBox_M_G/M_Char
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Box/Char - Return to box
+      takeName: Take 001
+      firstFrame: 364
+      lastFrame: 391
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: j_BoxRoot
+        weight: 1
+      - path: j_BoxRoot/j_BoxHandle
+        weight: 1
+      - path: j_BoxRoot/j_BoxHandle/j_BoxEnd
+        weight: 1
+      - path: j_BoxRoot/j_BoxTop
+        weight: 1
+      - path: j_BoxRoot/j_BoxTop/j_BoxEnd 1
+        weight: 1
+      - path: j_CharRoot
+        weight: 1
+      - path: j_CharRoot/j_CharSpine01
+        weight: 1
+      - path: j_CharRoot/j_CharSpine01/j_CharSpine02
+        weight: 1
+      - path: j_CharRoot/j_CharSpine01/j_CharSpine02/j_CharSpine03
+        weight: 1
+      - path: j_CharRoot/j_CharSpine01/j_CharSpine02/j_CharSpine03/j_CharSpine04
+        weight: 1
+      - path: j_CharRoot/j_CharSpine01/j_CharSpine02/j_CharSpine03/j_CharSpine04/j_CharSpine05
+        weight: 1
+      - path: j_CharRoot/j_CharSpine01/j_CharSpine02/j_CharSpine03/j_CharSpine04/j_CharSpine05/j_CharEnd
+        weight: 1
+      - path: JackInTheBox_M_G
+        weight: 1
+      - path: JackInTheBox_M_G/M_Box
+        weight: 1
+      - path: JackInTheBox_M_G/M_Char
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Char - IDLE -L-
+      takeName: Take 001
+      firstFrame: 271
+      lastFrame: 363
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: j_BoxRoot
+        weight: 1
+      - path: j_BoxRoot/j_BoxHandle
+        weight: 1
+      - path: j_BoxRoot/j_BoxHandle/j_BoxEnd
+        weight: 1
+      - path: j_BoxRoot/j_BoxTop
+        weight: 1
+      - path: j_BoxRoot/j_BoxTop/j_BoxEnd 1
+        weight: 1
+      - path: j_CharRoot
+        weight: 1
+      - path: j_CharRoot/j_CharSpine01
+        weight: 1
+      - path: j_CharRoot/j_CharSpine01/j_CharSpine02
+        weight: 1
+      - path: j_CharRoot/j_CharSpine01/j_CharSpine02/j_CharSpine03
+        weight: 1
+      - path: j_CharRoot/j_CharSpine01/j_CharSpine02/j_CharSpine03/j_CharSpine04
+        weight: 1
+      - path: j_CharRoot/j_CharSpine01/j_CharSpine02/j_CharSpine03/j_CharSpine04/j_CharSpine05
+        weight: 1
+      - path: j_CharRoot/j_CharSpine01/j_CharSpine02/j_CharSpine03/j_CharSpine04/j_CharSpine05/j_CharEnd
+        weight: 1
+      - path: JackInTheBox_M_G
+        weight: 1
+      - path: JackInTheBox_M_G/M_Box
+        weight: 1
+      - path: JackInTheBox_M_G/M_Char
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 100
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
