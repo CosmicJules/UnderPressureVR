@@ -49,6 +49,7 @@ public class RingPositions : MonoBehaviour
 
     //}
 
+     //Ensures user can only place ring on base or if there is a ring already beneath it
     public void placeOnBottom(List<XRSocketInteractor> spaces)
     {
         if (spaces[0].selectTarget == null && spaces[1].selectTarget == null && spaces[2].selectTarget == null)
@@ -73,7 +74,7 @@ public class RingPositions : MonoBehaviour
     }
 
 
-
+    //Ensures that user can only take a ring if it is at the base or has no rings on top of it
 
     public void takeFromTop(List<XRSocketInteractor> spaces)
     {
@@ -98,60 +99,4 @@ public class RingPositions : MonoBehaviour
     }
 
 
-    //public void CheckAnswer()
-    //{
-
-    //    //proxRing1 = Vector3.Distance(rings[0].transform.position, spaces[0].transform.position);
-    //    //proxRing2 = Vector3.Distance(rings[1].transform.position, spaces[1].transform.position);
-    //    //proxRing3 = Vector3.Distance(rings[2].transform.position, spaces[2].transform.position);
-
-    //    //if (proxRing1 == 0 && proxRing2 == 0 && proxRing3 == 0)
-    //    //{
-
-    //    //    Debug.Log("WOOOOHOOOOO");
-    //    //}
-    //    //else
-    //    //{
-    //    //    Debug.Log("BOOOOOOOOOOOO "+ proxRing1 +" "+ proxRing2 +" "+ proxRing3);
-    //    //}
-
-
-    //    lockedObject1 = spaces[0].selectTarget;
-    //    lockedObject2 = spaces[1].selectTarget;
-    //    lockedObject3 = spaces[2].selectTarget;
-    //    lockedObject4 = spaces[3].selectTarget;
-    //    lockedObject5 = spaces[4].selectTarget;
-    //    lockedObject6 = spaces[5].selectTarget;
-    //    lockedObject7 = spaces[6].selectTarget;
-    //    lockedObject8 = spaces[7].selectTarget;
-    //    lockedObject9 = spaces[8].selectTarget;
-
-    //    if (lockedObject1 == rings[0] && lockedObject2 == rings[1] && lockedObject3 == rings[2])
-    //    {
-
-    //        Debug.Log("Correct Position");
-    //    }
-    //    else if (lockedObject4 == rings[0] && lockedObject5 == rings[1] && lockedObject6 == rings[2])
-    //    {
-
-    //        Debug.Log("Correct Position 2");
-    //    }
-
-
-    //    else if (lockedObject7 == rings[0] && lockedObject8 == rings[1] && lockedObject9 == rings[2])
-    //    {
-
-    //        Debug.Log("Correct Position 3");
-    //    }
-    //    else
-    //    {
-    //        Debug.Log("invalid/incorrect position");
-    //        for (int i = 0; i < 9; i++)
-    //        {
-
-    //            Debug.Log("item in position " + i +" is " +spaces[i].selectTarget );
-
-    //        }
-    //    }
-    //}
 }

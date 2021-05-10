@@ -90,6 +90,7 @@ public class Window_Graph : MonoBehaviour {
         // Set up base values
         getHR GetHR = processingobject.GetComponent<getHR>();
         List<int> valueList = GetHR.heartrate;
+        //Uses list generated from getHR script
         Debug.Log(valueList[0]);
         //List<int> valueList = new List<int>() { 119, 101, 115, 97, 103, 109, 102, 113, 91, 90, 100, 118, 105, 107, 94, 108, 96, 104, 114, 117, 119, 101, 115, 97, 103, 109, 102, 113, 91, 90, 100, 118, 105, 107, 94, 108, 96, 104, 114, 117, 119, 101, 115, 97, 103, 109, 102, 113, 91, 90, 100, 118, 105, 107, 94, 108, 96, 104, 114, 117, 119, 101, 115, 97, 103, 109, 102, 113, 91, 90, 100, 118, 105, 107, 94, 108, 96, 104, 114, 117, };
         ShowGraph(valueList, lineGraphVisual, -1, (int _i) => (_i + 1) + "", (float _f) => "" + Mathf.RoundToInt(_f));

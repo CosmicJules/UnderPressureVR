@@ -5,6 +5,8 @@ using UnityEngine.Networking;
 using System;
 using System.Linq;
 
+//This script is used in order to grab all the data required from the web application in the form of a large string
+
 public class getHRWeb : MonoBehaviour
 {
     public string hrDT;

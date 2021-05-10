@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit;
 
+
+//This script checks to make sure that the rings are in a 'end' position i.e. smallest on bottom, biggest on top
 public class PuzzleLightDetect : MonoBehaviour
 {
     public List<XRGrabInteractable> rings;
@@ -35,7 +37,7 @@ public class PuzzleLightDetect : MonoBehaviour
         
 
     }
-
+    //Checks ring positions
     public void checkTowers(List<XRSocketInteractor> spaces, List<XRSocketInteractor> spaces2, List<XRSocketInteractor> spaces3)
     {
         if(spaces[0].selectTarget == rings[0] && spaces[1].selectTarget == rings[1] && spaces[2].selectTarget == rings[2] ||
@@ -50,6 +52,7 @@ public class PuzzleLightDetect : MonoBehaviour
         }
     }
 
+    //This will change the material of the cube that indicates if the user has the rings in a valid end position
     public void  ToggleLightOn()
     {
 

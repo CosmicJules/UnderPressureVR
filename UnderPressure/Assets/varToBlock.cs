@@ -6,6 +6,7 @@ using TMPro;
 
 public class varToBlock : MonoBehaviour
 {
+    //This script is used in order to change a variable block into what is essentially a code block value block
 
     public XRGrabInteractable block;
 

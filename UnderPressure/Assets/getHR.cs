@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
+//This script is used to parse the string of information grabbed from getHRWeb into a format that is required for the graph
 public class getHR : MonoBehaviour
 {
     public GameObject networkobject;
@@ -34,12 +35,12 @@ public class getHR : MonoBehaviour
         string resultString = GetHRWeb.hrDT;
         string[] results = resultString.Split(new string[] { "\": ", ", " }, StringSplitOptions.RemoveEmptyEntries);
         int ArraySize = results.Length;
-
+        //Splits the string into an array
         for (int i = 0; i < ArraySize; i++)
         {
             if ((i + 1) % 2 == 0)
             {
-
+                //Removes any unusable characters and changes heart rate results into integers
                 results[i] = results[i].TrimStart('\"');
                 results[i] = results[i].TrimEnd('}');
                 results[i] = results[i].TrimEnd('\"');
@@ -64,7 +65,7 @@ public class getHR : MonoBehaviour
         string[] dateTimeList = datetimeStr.Split(new string[] { ",", " " }, StringSplitOptions.RemoveEmptyEntries);
         int ArraySizeDT = dateTimeList.Length;
         List<DateTime> testDT = new List<DateTime>();
-
+        //convert date time string into DateTime data type
         for (int i = 0; i < ArraySizeDT; i++)
         {
             if ((i + 1) % 2 == 0)
@@ -128,6 +129,7 @@ public class getHR : MonoBehaviour
 
             //Debug.Log("Trimming: End Time is: " + EndTime);
 
+            //only grabs heart rate data from in between start and end of puzzle, removing any pointless results from array
             if (timeList[i] >= StartTime && timeList[i] <= EndTime)
             {
                 Debug.Log("Trimmer: " + heartrate[i]);

@@ -6,6 +6,7 @@ using UnityEngine.XR.Interaction.Toolkit;
 
 public class CodeBlockFunct : MonoBehaviour
 {
+    //Script dictates how the if statement function works, if more functions were added such as for loop they would be added here
     public string function;
     public XRSocketInteractor ifSocket1, ifSocket2, ifSocket3;
     // Start is called before the first frame update

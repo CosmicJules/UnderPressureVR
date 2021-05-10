@@ -6,6 +6,7 @@ using TMPro;
 
 public class CodeBlocks : MonoBehaviour
 {
+    //This script dictates how each code block is dealt with on the code wall
     public List<XRSocketInteractor> blockSockets;
     public List<XRSocketInteractor> VarSockets;
     public TextMeshPro textInBlock;
@@ -21,7 +22,7 @@ public class CodeBlocks : MonoBehaviour
 
     }
 
-
+    //checks contents of sockets in code wall, actions them accordingly
     public void checkcontents()
     {
         if (blockSockets[0].selectTarget != null)
@@ -30,6 +31,7 @@ public class CodeBlocks : MonoBehaviour
             {
                 try
                 {
+                    //setting variables
                     x = 0;
                     y = 0;
                     value = 0;
@@ -56,6 +58,7 @@ public class CodeBlocks : MonoBehaviour
                     //codeBlockValueRun.run = true;
 
                     if (blockVal.CompareTag("ifStatement"))
+                        //ifstatement blocks
                     {
                         bool ifvalid = codeBlockFunct.IfStatement(x, y, value);
                         Debug.Log("ifvalid: " + ifvalid);
@@ -69,6 +72,7 @@ public class CodeBlocks : MonoBehaviour
                                 CodeBlockValue codeBlockValuej = blockValj.GetComponent<CodeBlockValue>();
                                 if (blockValj.CompareTag("EndIfStatement"))
                                 {
+                                    //stop if statement effects after this block
                                     break;
                                 }
                                 else
@@ -95,6 +99,7 @@ public class CodeBlocks : MonoBehaviour
 
                     else if (blockVal.CompareTag("Operation"))
                     {
+                        //operation blocks
                         CodeBlockValue codeBlockValue = blockVal.GetComponent<CodeBlockValue>();
                         string v1 = codeBlockValue.value1;
                         string fnc = codeBlockValue.function;
@@ -125,7 +130,7 @@ public class CodeBlocks : MonoBehaviour
 
                     }
                     else if (blockVal.CompareTag("VarBlock"))
-
+                        //Variable block detected
                     {
 
 
@@ -135,7 +140,7 @@ public class CodeBlocks : MonoBehaviour
 
                         string function = "=";
                         string value2 = variableSetter.varVal;
-                        Debug.Log("Hello DAN! " + value1);
+                        Debug.Log("debug " + value1);
                         bool runnable = codeBlockValue.run;
 
 
@@ -154,6 +159,7 @@ public class CodeBlocks : MonoBehaviour
                     }
                     else if (blockVal.CompareTag("VarBlockOperation"))
                     {
+                        //for blocks with operations involving x or y
                         CodeBlockValue codeBlockValue = blockVal.GetComponent<CodeBlockValue>();
                         string v1 = codeBlockValue.value1;
                         string fnc = codeBlockValue.function;
@@ -249,6 +255,7 @@ public class CodeBlocks : MonoBehaviour
         }
         else
         {
+            //Set output to null if no blocks detected
             textInBlock.SetText("V =" + " null");
         }
     }

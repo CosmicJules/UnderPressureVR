@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Waypoints : MonoBehaviour
 {
-
+    //This script is used in order to make assets travel to waypoints on a loop, used for spider assets
     public GameObject[] waypoints;
     public GameObject player;
     int current = 0;
@@ -12,6 +12,7 @@ public class Waypoints : MonoBehaviour
     float WPradius = 1;
 
     void Update()
+        //Constantly updates in order for the asset to search for waypoint and incrementally move towards the waypoint, once reached it will got to a new waypoint
     {
         if (Vector3.Distance(waypoints[current].transform.position, transform.position) < WPradius)
         {

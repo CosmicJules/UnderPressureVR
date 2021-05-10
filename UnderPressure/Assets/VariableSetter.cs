@@ -4,7 +4,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit;
 
-
+//This script is used in order for the wall to read the variable blocks and will action on them accordingly. Will set them to Codeblock Values
 public class VariableSetter : MonoBehaviour
 {
 
@@ -17,6 +17,7 @@ public class VariableSetter : MonoBehaviour
 
     public void variableSet()
     {
+        //Take value from input block
         if (Socket.selectTarget != null) {
             CodeBlockValue codeBlockValue = Socket.selectTarget.GetComponent<CodeBlockValue>();
             varVal = codeBlockValue.value1;
@@ -24,6 +25,7 @@ public class VariableSetter : MonoBehaviour
         }
         else
         {
+            //If no value set in varblock
             varVal = null;
             textOutput.SetText(varName + " = " + "unassigned");
         }

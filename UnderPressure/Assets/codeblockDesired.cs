@@ -7,6 +7,7 @@ using TMPro;
 
 public class codeblockDesired : MonoBehaviour
 {
+    //Compares output value V with desired output value
     public GameObject curOut;
     public GameObject curDesOut;
     public GameObject door;
@@ -24,6 +25,7 @@ public class codeblockDesired : MonoBehaviour
 
         if (outputValue == desOutputValue)
         {
+            //Open door and get necessary heart rate information
             Debug.Log("Correct Answer: door opened");
             //Destroy(door);
 
@@ -41,11 +43,11 @@ public class codeblockDesired : MonoBehaviour
         else
         {
             Debug.Log("Incorrect");
-            if ((door.GetComponent<Renderer>().enabled == false) && (door.GetComponent<BoxCollider>().enabled == false))
-            {
-                door.GetComponent<BoxCollider>().enabled = true;
-                door.GetComponent<Renderer>().enabled = true;
-            }
+            //if ((door.GetComponent<Renderer>().enabled == false) && (door.GetComponent<BoxCollider>().enabled == false))
+            //{
+            //    door.GetComponent<BoxCollider>().enabled = true;
+            //    door.GetComponent<Renderer>().enabled = true;
+            //}
         }
 
     }

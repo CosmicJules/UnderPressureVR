@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayAnimationTrigger : MonoBehaviour
 {
-
+    //Script plays animation once a player has walked into a collider and thereby trigger the animation to start.
     [SerializeField] private Animator[] myAnimationController;
     public string AnimationSet;
 

@@ -1,0 +1,284 @@
+QUEEN’S UNIVERSITY OF BELFAST COMPUTER SCIENCE
+
+Minute of Project Supervision Meeting
+======================================
+
+Student Name: Michael O'Neill
+Project Module Code: CSC3002
+Project Supervisor: Dr Matthew Collins
+Meeting Number: 1
+Date of Meeting: 08-Oct-20
+
+Progress since last meeting, and decisions arrived at during meeting:
+======================================
+Discussed general details of project, and overall how the project will operate and imporant deadlines.
+
+Action Points:
+==============
+Collect Quest from CSB at some point, Have idea for project for next meeting
+
+
+==================================================================================================================
+
+
+Student Name: Michael O'Neill
+
+
+Project Module Code: CSC3002
+
+Project Supervisor: Dr Matthew Collins
+
+
+Meeting Number: 2
+
+
+Date of Meeting: 19-Oct-20
+
+
+
+Progress since last meeting, and decisions arrived at during meeting:
+======================================
+Discussed idea for puzzle that tests for stress using a heart rate peripheral and possible avenues to go about doing such a project
+Discussed the psychology aspect of the project and the potential readings needed
+Discussed peripherals for heart rate gathering
+
+Action Points:
+==============
+Being creating prototype in Unity asap, focus on core aspects
+
+
+==================================================================================================================
+
+Student Name: Michael O'Neill
+
+
+Project Module Code: CSC3002
+
+Project Supervisor: Dr Matthew Collins
+
+
+Meeting Number: 3
+
+
+Date of Meeting: 27-Nov-20
+
+
+
+Progress since last meeting, and decisions arrived at during meeting:
+======================================
+Rough prototype created for demo, no heart rate gathering yet will likely have to wait until after the demo.
+Movement and interaction almost completed
+Discussed code wall puzzle idea as well as showed basic tower of hanoi puzzle prototype
+
+
+Action Points:
+==============
+Work on puzzle and have a solid representation ready for demo.
+
+==================================================================================================================
+Student Name: Michael O'Neill
+
+
+Project Module Code: CSC3002
+
+Project Supervisor: Dr Matthew Collins
+
+
+Meeting Number: 4
+
+
+Date of Meeting: 08-Dec-20
+
+
+
+Progress since last meeting, and decisions arrived at during meeting:
+======================================
+Recorded and completed demo
+discussed future project ideas and what to work on over winter break
+Started working on interim report, feedback given
+
+Action Points:
+==============
+phase out first person writing
+What approach to development= agile etc
+justify development plan
+
+==================================================================================================================
+
+Student Name: Michael O'Neill
+
+
+Project Module Code: CSC3002
+
+Project Supervisor: Dr Matthew Collins
+
+
+Meeting Number: 5
+
+
+Date of Meeting: 01-Feb-21
+
+
+
+Progress since last meeting, and decisions arrived at during meeting:
+======================================
+Showed basis of code block puzzle and new map that was created over winter break
+
+Action Points:
+==============
+Add a compiler for blocks to ensure that they follow rules required within a script
+add additional types of Code blocks
+Start working on heart rate gathering
+
+==================================================================================================================
+
+
+
+Student Name: Michael O'Neill
+
+
+Project Module Code: CSC3002
+
+Project Supervisor: Dr Matthew Collins
+
+
+Meeting Number: 6
+
+
+Date of Meeting: 11-Feb-21
+
+
+
+Progress since last meeting, and decisions arrived at during meeting:
+======================================
+heart rate gathering system is in works with Polar H10 chest strap and flask application, just working out some issues with certificates
+Added additional code blocks to system
+
+
+Action Points:
+==============
+create variable block where the variable square is within a larger block
+
+
+==================================================================================================================
+
+
+
+Student Name: Michael O'Neill
+
+
+Project Module Code: CSC3002
+
+Project Supervisor: Dr Matthew Collins
+
+
+Meeting Number: 7
+
+
+Date of Meeting: 04-Mar-21
+
+
+
+Progress since last meeting, and decisions arrived at during meeting:
+======================================
+Added variable blocks and if statement blocks
+Still working on heart rate gathering system
+
+Action Points:
+==============
+Keep working on heart rate gathering system, even if it has to be proof of concept design.
+Start working on dissertation ASAP.
+
+
+==================================================================================================================
+
+
+
+Student Name: Michael O'Neill
+
+
+Project Module Code: CSC3002
+
+Project Supervisor: Dr Matthew Collins
+
+
+Meeting Number: 8
+
+
+Date of Meeting: 19-Mar-21
+
+
+
+Progress since last meeting, and decisions arrived at during meeting:
+======================================
+heart rate gathering system is working now, it is now just about getting that data and adding it to Unity.
+
+Action Points:
+==============
+Have project as close to code complete for next week
+
+
+==================================================================================================================
+
+
+Student Name: Michael O'Neill
+
+
+Project Module Code: CSC3002
+
+Project Supervisor: Dr Matthew Collins
+
+
+Meeting Number: 9
+
+
+Date of Meeting: 26-Mar-21
+
+
+
+Progress since last meeting, and decisions arrived at during meeting:
+======================================
+Project is nearly code complete, graph is now added, now just need to use data from web application to populate the graph
+Add stressors to scene.
+Small fixes needed but for most part, code complete
+
+Action Points:
+==============
+Add last details to project and then focus on dissertation
+
+
+==================================================================================================================
+
+
+
+Student Name: Michael O'Neill
+
+
+Project Module Code: CSC3002
+
+Project Supervisor: Dr Matthew Collins
+
+
+Meeting Number: 10
+
+
+Date of Meeting: 04-May-21
+
+
+
+Progress since last meeting, and decisions arrived at during meeting:
+======================================
+Dissertation almost finished, just need to finish last two sections, dicussed general layout issues and any missing details from current draft.
+
+Action Points:
+==============
+Add Problem area
+Add development strategy
+Caption images
+Fix headings so only 3 levels deep
+
+
+==================================================================================================================
+
+
+
