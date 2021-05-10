@@ -5,6 +5,7 @@ using UnityEngine.XR.Interaction.Toolkit;
 
 public class LocomotionController : MonoBehaviour
 {
+    //This script is used in order to control the use of the teleporter rays
 
     public XRController leftTeleportRay;
     public XRController rightTeleportRay;
@@ -15,6 +16,7 @@ public class LocomotionController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //only draws beams if the buttons are pressed
         if (leftTeleportRay)
         {
             leftTeleportRay.gameObject.SetActive(CheckIfActivated(leftTeleportRay));

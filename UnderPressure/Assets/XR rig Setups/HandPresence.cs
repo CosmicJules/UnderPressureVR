@@ -15,9 +15,12 @@ public class HandPresence : MonoBehaviour
     private GameObject spawnedHandModel;
     private Animator handAnimator;
 
+
+    //Script controls how the hand animation and button presses work
     // Start is called before the first frame update
     void Start()
     {
+        //attempt to connect to controller
         attemptInit();
     }
 
@@ -31,6 +34,8 @@ public class HandPresence : MonoBehaviour
         {
             Debug.Log(item.name + item.characteristics);
         }
+
+        //render hand object prefabs
         if (devices.Count > 0)
         {
             targetDevice = devices[0];
@@ -50,6 +55,7 @@ public class HandPresence : MonoBehaviour
         }
     }
 
+    //changes animation based on button presses
     void UpdateHandAnimation()
     {
         if(targetDevice.TryGetFeatureValue(CommonUsages.trigger, out float triggerValue))
@@ -74,17 +80,8 @@ public class HandPresence : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //targetDevice.TryGetFeatureValue(CommonUsages.primaryButton, out bool primaryButtonValue);
-        //if (primaryButtonValue)
-        //    Debug.Log("Pressing primary button");
 
-        //targetDevice.TryGetFeatureValue(CommonUsages.trigger, out float triggerValue);
-        //if (triggerValue > 0.1f)
-        //    Debug.Log("Trigger Pressed " + triggerValue);
-
-        //targetDevice.TryGetFeatureValue(CommonUsages.primary2DAxis, out Vector2 primary2DAxisValue);
-        //if (primary2DAxisValue != Vector2.zero)
-        //    Debug.Log("Primary Touchpad " + primary2DAxisValue);
+        //constantly updates to find controller to connect to it , if it is not connected
 
         if (!targetDevice.isValid)
         {

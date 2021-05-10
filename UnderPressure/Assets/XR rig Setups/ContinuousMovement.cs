@@ -6,6 +6,7 @@ using UnityEngine.XR.Interaction.Toolkit;
 
 public class ContinuousMovement : MonoBehaviour
 {
+    //Controls the continuous movment and gravity of the playter model
     public float speed=1;
     public XRNode inputSource;
     public float gravity = -9.81f;
@@ -33,13 +34,15 @@ public class ContinuousMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
+
+        //Gets position of players head and translates to in game position
         CapsuleFollowHeadset();
         Quaternion headYaw = Quaternion.Euler(0, rig.cameraGameObject.transform.eulerAngles.y, 0);
         Vector3 direction = headYaw * new Vector3(inputAxis.x, 0, inputAxis.y);
 
         character.Move(direction*Time.fixedDeltaTime*speed);
 
-        //Gravity
+        //Gravity, checks if player is grounded if not they will descend at 9.81 ms^2
         bool isGrounded = checkIfGrounded();
         if (isGrounded)
         {
